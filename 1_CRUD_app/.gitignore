@@ -1,0 +1,60 @@
+# phpstorm project files
+.idea
+*.iml
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# yii console commands
+/yii
+/yii.bat
+/yii_test
+/yii_test.bat
+
+# composer vendor dir
+/vendor
+# cubrid install dir
+/cubrid
+
+# composer itself is not needed
+composer.phar
+
+# composer.lock in applications is ignored since it's automatically created by composer when application is installed
+/apps/*/composer.lock
+
+# composer lock
+composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+tests/_output/*
+tests/_support/_generated
+
+#vagrant folder
+/vagrant
+
+# ignore dev installed apps and extensions
+/apps
+/extensions
+/packages
+
+# NPM packages
+/node_modules
+.env
+package-lock.json
+
+/config/db.php
